@@ -1,16 +1,9 @@
 # testproject
+This is a small workout recording app developed by Mubashar Ali. 
+I am using MVVM architecture for this project. I used this because I am using provider state management in it and to make the code easy using provider this is the best architecture. 
+I am using two packages:
+1: provider
+I am using it because it makes the code easy and very understandable. Like my logic are in different files, I can update data without using the setState() function, etc. This is good for developing large apps with complex code.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2: test
+I am using this package to implement unit and widget test for my app according to reqquirnment. 
